@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmit": false,
+    "lib": ["es2018"],
+    "moduleResolution": "node",
+    "strict": true,
+    "target": "ES5",
+    "outDir": "dist",
+    "typeRoots": ["node_modules/@types"],
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "exclude": ["dist", "babel.config.js"],
+  "files": ["src/events-server/start.ts"]
+}
